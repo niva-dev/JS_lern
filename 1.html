@@ -1,0 +1,37 @@
+<html>
+<meta charset="utf-8">
+
+<head>
+  <link rel="stylesheet" href="./1.css">
+  <title>Authorization</title>
+</head>
+
+<body>  
+ 
+  <div class="box">
+    <form id = "form">
+      <fieldset class="account-info">
+        <legend>
+          <h3>Вход в систему</h3>
+        </legend>
+        <label>
+          Email
+          <input type="email" id = "email" name="email" placeholder="name@domain.com" required>
+        </label>
+        <label>
+          Пароль
+          <input type="password" id = "password" name="password" required>
+        </label>
+      </fieldset>
+      <fieldset class="account-action">
+        <input class="btn" type="submit" id = "submit" name="submit" value="Войти" disabled>
+        <label>
+          <input type="checkbox" name="remember"> Запомнить
+        </label>
+      </fieldset>
+    </form>
+  </div>
+
+  <script src="./1.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  height:100%;
+  width:100%;
+  background: url("./back.jpg") center center no-repeat;
+  background-size: cover;   
+  display: flex; 
+  align-items: center; 
+  justify-content: center; /*выравнивает по горизонтали*/
+
+}
+
+
+.box {
+
+	background-color: #B2DAEC;
+  display: flex; 
+
+  align-items: center; /* выравнивает по вертикали */
+  justify-content: center; /*выравнивает по горизонтали*/  
+
+  min-width: 400px;
+  width:calc(100% - 400px);
+  max-width: 600px;	
+  
+  min-height:250px;
+  height: calc(100% - 250px);
+  max-height:500px;		   
+}
+legend{
+margin-top: 10px;
+}
+form {  
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  width: 240px;
+}
+form.hidden{
+display: none;
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+input {
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  border: none;
+}
+input:invalid{
+  border:1px solid #FF6B6B;
+}
+.account-info legend {
+  color: #395870;
+  text-align: center;
+}
+.account-info {
+  padding: 0 10px;
+}
+.account-info label {
+  color: #395870;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.account-info input {
+  padding: 6px;
+  margin-top: 6px;
+  width: 100%;
+}
+.account-action {
+  padding: 15px;
+}
+.account-action .btn {
+  background-color: #49708f;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  float: left;
+  padding: 8px 16px;
+}
+.account-action .btn:disabled{
+  background-color: #6c7881;
+
+}
+.account-action label {
+  color: #7c7c80;
+  font-size: 12px;
+  float: left;
+  margin: 10px 0 0 20px;
+}
